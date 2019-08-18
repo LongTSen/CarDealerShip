@@ -29,7 +29,7 @@ void opt1()
 {
     string line;
     ifstream infile;
-    infile.open("DATA2.txt");
+    infile.open("DATA.txt");
     if (!infile) {
         cout << "Unable to open file";
         exit(1); // terminate with error
@@ -162,7 +162,7 @@ void readFile(vector<Dealer> &d)
     int dealerNumber,numOfCar,year;
     double price;
     ifstream infile;
-    infile.open("DATA2.txt");
+    infile.open("DATA.txt");
     if (!infile) {
         cout << "Unable to open file";
         exit(1); // terminate with error
@@ -204,7 +204,7 @@ void readFile(vector<Dealer> &d)
 void writeFile(vector<Dealer> &dealer)
 {
     ofstream outfile;
-    outfile.open("DATA2.txt");
+    outfile.open("DATA.txt");
     {
         cout<<dealer.size()<<endl;
         for(int i=0;i<dealer.size();i++)

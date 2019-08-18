@@ -21,9 +21,14 @@ Model X
 52123.00
 Tesla Cherry Creek 3
 333
-1
+2
 VIN333
 Tesla
 Model X
 2019
 22123.00
+VIN89898
+Toyota
+Camry
+2002
+19000.55
